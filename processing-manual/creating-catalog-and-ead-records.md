@@ -136,7 +136,7 @@ All catalog records are published via OCLC on [Worldcat](https://www.worldcat.or
 
 1\. Log in to OCLC Connexion.
 
-The first time you login to OCLC Connexion, or if you are logging onto OCLC Connexion for the first time on a new device or newly updated device, you will need to set up your OCLC Connexion Gateway Connection. There are [instructions 🔒](https://docs.google.com/document/d/1jHuEKAkd8eODzWFgioFsBN_lArdyln-L2t66Y5CBMj0/edit?usp=sharingkUcbRIIpfp/edit?usp=sharing\&ouid=101547597784973669792\&rtpof=true\&sd=true) available from BookOps to set up your account.
+The first time you login to OCLC Connexion, or if you are logging onto OCLC Connexion for the first time on a new device or newly updated device, you will need to set up your OCLC Connexion Gateway Connection. There are [instructions 🔒](https://docs.google.com/document/d/1CR8_KyXux1xhuhsxN7VXC_tXSRX5Jwqr/edit) available from BookOps to set up your account.
 
 2\. Import the .mrc file. 
 
