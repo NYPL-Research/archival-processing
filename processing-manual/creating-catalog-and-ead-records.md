@@ -134,6 +134,8 @@ It is recommended you do this with a find and replace.
 
 All catalog records are published via OCLC on [Worldcat](https://www.worldcat.org/). OCLC also has extensive [documentation](https://help.oclc.org/Librarian_Toolbox) available, including information on their [Bibliographic Formats and Standards](https://www.oclc.org/bibformats/en.html) site, which includes rules for MARC fields, indicators, and subfields. Before you can catalog in OCLC you will need to request an OCLC account through ServiceNow.
 
+If you are setting up OCLC for the first time on your computer, follow these [configuration instructions 🔒](https://docs.google.com/document/d/1CR8_KyXux1xhuhsxN7VXC_tXSRX5Jwqr/edit). 
+
 1\. Log in to OCLC Connexion.
 
 The first time you login to OCLC Connexion, or if you are logging onto OCLC Connexion for the first time on a new device or newly updated device, you will need to set up your OCLC Connexion Gateway Connection. There are [instructions 🔒](https://docs.google.com/document/d/1CR8_KyXux1xhuhsxN7VXC_tXSRX5Jwqr/edit) available from BookOps to set up your account.
