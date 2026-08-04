@@ -266,7 +266,7 @@ If you have created a brand new catalog record, these steps in Sierra will be to
 Open the Sierra desktop app and login to Sierra. Navigate to the collection’s catalog record to make sure the record was exported correctly.
 
 ## Collection Locations
-Make sure the collection location is correct. ArchivesSpace automatically assigns the most common location by division and container size. See the internal [Cataloging Archival Collections 🔒](https://docs.google.com/document/d/1XMCuaNAQwFyRw-UMd86Me8R0YMDczk_S14sjhEEJ2AY/edit?usp=sharing) documentation for location codes and access notes. 
+Make sure the collection location is correct. ArchivesSpace automatically assigns the most common location by division and container size. See the internal [Cataloging Archival Collections 🔒](https://github.com/NYPL/archival-processing-admin/blob/main/cataloging/resource-guide.md) documentation for location codes and access notes. 
 
 If you need to change a location, select the specific item(s) that need to be changed in the summary view of the record.
 
