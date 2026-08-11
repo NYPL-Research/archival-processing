@@ -10,7 +10,7 @@ This User Guide was created by Archival Processing and is intended to be used by
 
 The ArchivesSpace staff instance is managed by [Archival Processing 🔒](https://sites.google.com/nypl.org/specialcollections/special-collections-processing/archival-processing) management.
 
-NYPL’s instance of ArchivesSpace is hosted by [Lyrasis](https://lyrasis.org/archivesspace-hosting/), an organization that specializes in hosting and supporting ASpace. Lyrasis assures that our ASpace instance is running correctly, and also assists with upgrades, customizations, and plugin maintenance. All communications with Lyrasis are initiated and managed by Archival Processing and Collections Access and Discovery
+NYPL’s instance of ArchivesSpace is hosted by [Lyrasis](https://lyrasis.org/archivesspace-hosting/), an organization that specializes in hosting and supporting ASpace. Lyrasis assures that our ASpace instance is running correctly, and also assists with upgrades, customizations, and plugin maintenance. All communications with Lyrasis are initiated and managed by Archival Processing management.
 
 NYPL is currently using a highly customized instance of ArchivesSpace 2.5, but actively testing features in version 4.1, which is the most current version of ASpace. This guide is written for use with ArchivesSpace 2.5 and all of its local customizations. We also recommend consulting ArchivesSpace’s own [User Manual](https://archivesspace.atlassian.net/wiki/spaces/ArchivesSpaceUserManual/pages/909934631/ArchivesSpace+User+Manual) and [training videos](https://www.youtube.com/@archivesspace5340), which are created, managed, and maintained by the [ArchivesSpace Community](https://archivesspace.org/). 
 
