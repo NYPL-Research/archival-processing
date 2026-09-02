@@ -37,9 +37,9 @@ Catalog records will appear in both [WorldCat](https://www.worldcat.org/) and th
 | Immediate Source of Acquisition | [DACS 5.2](https://saa-ts-dacs.github.io/dacs/06_part_I/06_chapter_05/02_immediate_source_of_acquisition.html) | [\<acqinfo>](https://www.loc.gov/ead/tglib/elements/acqinfo.html) | [RDA 2.19](https://original.rdatoolkit.org/document.php?id=rdachp2\&target=rda2-8636#rda2-8636) | [MARC 541](https://www.loc.gov/marc/bibliographic/bd541.html) | The source of the acquisition and the year in which it was received. |
 | Reference Code/ Call number/ Identifier | [DACS 2.1](https://saa-ts-dacs.github.io/dacs/06_part_I/03_chapter_02/01_reference_code.html) | [\<unitid>](https://www.loc.gov/ead/tglib/elements/unitid.html) | [RDA 2.20](https://original.rdatoolkit.org/document.php?id=rdachp2\&target=rda2-8658#rda2-8658) | [MARC 852](https://www.loc.gov/marc/holdings/hd852.html) | If this field is missing the 949 (item records) will not export. |
 
-3\. Verify all [Agents](https://nypl.github.io/archival-processing/processing-manual/controlled-access-terms/#agents) are formed correctly.
+3\. Verify all [Agents](https://nypl-research.github.io/archival-processing/processing-manual/controlled-access-terms/#agents) are formed correctly.
 
-Add [relator terms](https://nypl.github.io/archival-processing/processing-manual/controlled-access-terms/#creatorcontributor) for [MARC 700](https://www.loc.gov/marc/bibliographic/bd700.html)/[710](https://www.loc.gov/marc/bibliographic/bd710.html) (i.e. added authors).
+Add [relator terms](https://nypl-research.github.io/archival-processing/processing-manual/controlled-access-terms/#creatorcontributor) for [MARC 700](https://www.loc.gov/marc/bibliographic/bd700.html)/[710](https://www.loc.gov/marc/bibliographic/bd710.html) (i.e. added authors).
 
 ![Relator Term](/images/127-Relator-term.png)
 
@@ -61,7 +61,7 @@ If the agent is from a source other than the Library of Congress, or if the Libr
 
 Make sure the authority identifier is entered correctly. For Library of Congress authority records, make sure to copy the number exactly as it appears in the authority record, preserving any spaces that may be present. 
 
-4\. Verify that [Subjects](https://nypl.github.io/archival-processing/processing-manual/controlled-access-terms/#subjects) are formed correctly.
+4\. Verify that [Subjects](https://nypl-research.github.io/archival-processing/processing-manual/controlled-access-terms/#subjects) are formed correctly.
 
 For complex subjects, make sure there is only one term in each field. Remember that subdivision terms each get their own field.
 
@@ -266,7 +266,7 @@ If you have created a brand new catalog record, these steps in Sierra will be to
 Open the Sierra desktop app and login to Sierra. Navigate to the collection’s catalog record to make sure the record was exported correctly.
 
 ## Collection Locations
-Make sure the collection location is correct. ArchivesSpace automatically assigns the most common location by division and container size. See the internal [Cataloging Archival Collections 🔒](https://github.com/NYPL/archival-processing-admin/blob/main/cataloging/resource-guide.md) documentation for location codes and access notes. 
+Make sure the collection location is correct. ArchivesSpace automatically assigns the most common location by division and container size. See the internal [Cataloging Archival Collections 🔒](https://github.com/NYPL-Research/archival-processing-admin/blob/main/cataloging/resource-guide.md) documentation for location codes and access notes. 
 
 If you need to change a location, select the specific item(s) that need to be changed in the summary view of the record.
 
@@ -286,7 +286,7 @@ Then use the find and replace function to make the changes.
 
 ## Item Agency Codes
 If you change the location, you will also need to change the _item agency (127)_ using the same process.
-A list of [item agency codes 🔒](https://github.com/NYPL/archival-processing-admin/blob/main/cataloging/resource-guide.md#item-agency-codes) is available in the internal Cataloging Archival Collections documentation.
+A list of [item agency codes 🔒](https://github.com/NYPL-Research/archival-processing-admin/blob/main/cataloging/resource-guide.md#item-agency-codes) is available in the internal Cataloging Archival Collections documentation.
 
 ## Locating the bnumber
 When the catalog record is complete, locate the bnumber. The bnumber is the letter “b” followed by eight numbers at the top of the record. When recording the bnumber, omit the last digit. This number must be added to both the collection’s ASpace record in the _bnumber_ _indentifer_ field and the bnumber field of the SPEC collection record. 
@@ -294,7 +294,7 @@ When the catalog record is complete, locate the bnumber. The bnumber is the lett
 When you have finished cataloging the collection, mark the cataloging task in the collection’s Trello card as complete. 
 
 # Aeon Links
-If you are cataloging an LPA collection for the Dance, Music, or Theatre division, you will need to add [Aeon links 🔒](https://github.com/NYPL/archival-processing-admin/blob/main/cataloging/resource-guide.md#adding-aeon-links) to each of the item records. Instructions on how to do this are included in the internal cataloging documentation.
+If you are cataloging an LPA collection for the Dance, Music, or Theatre division, you will need to add [Aeon links 🔒](https://github.com/NYPL-Research/archival-processing-admin/blob/main/cataloging/resource-guide.md#adding-aeon-links) to each of the item records. Instructions on how to do this are included in the internal cataloging documentation.
 
 # Corrections and Edits to Existing Catalog Records
 If you are cataloging an addition to a previously processed collection, or if you are editing an existing catalog record or finding aid, follow the steps below. You will not need to export the MARCXML from ASpace, import the MARC record into OCLC, or export the record from OCLC to Sierra. 
@@ -362,26 +362,26 @@ To add a single item record to a Sierra catalog record complete the following st
 
 4\. Make sure the _single item_ radio button is selected and follow the prompts.
 
-- **Location**: Use the [code 🔒](https://github.com/NYPL/archival-processing-admin/blob/main/cataloging/resource-guide.md#location-codes) according to the collection’s division.
+- **Location**: Use the [code 🔒](https://github.com/NYPL-Research/archival-processing-admin/blob/main/cataloging/resource-guide.md#location-codes) according to the collection’s division.
 
-- **Item Agency**: Choose the item agency [code 🔒](https://github.com/NYPL/archival-processing-admin/blob/main/cataloging/resource-guide.md#item-agency-codes) based on the division and it's storage location.
+- **Item Agency**: Choose the item agency [code 🔒](https://github.com/NYPL-Research/archival-processing-admin/blob/main/cataloging/resource-guide.md#item-agency-codes) based on the division and it's storage location.
 
 - **Item Type**: This will almost always be _archival materials_.
 
-- **OPAC Message**: Use the [correct message 🔒](https://github.com/NYPL/archival-processing-admin/blob/main/cataloging/resource-guide.md#opac-and-item-messages) based on each division's local conventions. 
+- **OPAC Message**: Use the [correct message 🔒](https://github.com/NYPL-Research/archival-processing-admin/blob/main/cataloging/resource-guide.md#opac-and-item-messages) based on each division's local conventions. 
 
-- **Item Message**: Use the [correct message 🔒](https://github.com/NYPL/archival-processing-admin/blob/main/cataloging/resource-guide.md#opac-and-item-messages) based on each division's local conventions. 
+- **Item Message**: Use the [correct message 🔒](https://github.com/NYPL-Research/archival-processing-admin/blob/main/cataloging/resource-guide.md#opac-and-item-messages) based on each division's local conventions. 
 
 - **Call Number**: Use the collection's Call Number.
 
 - **Barcode**: Enter the new item's barcode.
 
-- **Unit/Initials**: Enter your initials and your division as explained in the [internal documentation 🔒](https://github.com/NYPL/archival-processing-admin/blob/main/cataloging/resource-guide.md#901-and-949-fields-in-marc-edit-and-sierra).
+- **Unit/Initials**: Enter your initials and your division as explained in the [internal documentation 🔒](https://github.com/NYPL-Research/archival-processing-admin/blob/main/cataloging/resource-guide.md#901-and-949-fields-in-marc-edit-and-sierra).
 
 5\. The new item will not be created until you save the record. Once you save the record, the updates will appear in the OPAC.
 
 ### Adding Multiple Item Records to A Sierra Catalog Record
-To add a multiple item records to a Sierra catalog record complete the steps below. The first time you do this, you will need to [configure 🔒](https://github.com/NYPL/archival-processing-admin/blob/main/cataloging/resource-guide.md#configuring-sierra-setting-for-bulk-updates) your settings in Sierra.
+To add a multiple item records to a Sierra catalog record complete the steps below. The first time you do this, you will need to [configure 🔒](https://github.com/NYPL-Research/archival-processing-admin/blob/main/cataloging/resource-guide.md#configuring-sierra-setting-for-bulk-updates) your settings in Sierra.
 
 1\. In the summary screen, select _Attach new item_. 
 
@@ -403,7 +403,7 @@ To add a multiple item records to a Sierra catalog record complete the steps bel
 
 8\. Leave the box next to _Increment copy number_ checked.
 
-9\. For the _location_, enter the correct division [location code 🔒](https://github.com/NYPL/archival-processing-admin/blob/main/cataloging/resource-guide.md#location-codes).
+9\. For the _location_, enter the correct division [location code 🔒](https://github.com/NYPL-Research/archival-processing-admin/blob/main/cataloging/resource-guide.md#location-codes).
 
 10\.  For # of Copies, enter 1.
 

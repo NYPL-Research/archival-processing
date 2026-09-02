@@ -9,7 +9,7 @@ has_children: false
 # AMI Description in ArchivesSpace
 {: .no_toc }
 
-This section covers how to describe AMI recordings in ArchivesSpace. AMI components should never be manually created in ASpace. AMI data should be exported from SPEC, desribed in a spreadsheet, and then imported into ASpace. This ensures that AMI identifiers exactly match between SPEC and ASpace, and that metadata in the finding aid is populated in the correct fields. This section only covers tasks specific to ASpace. For information about descriptive practices, see the sections of the Archival Processing Manual on [Processing Audio and Moving Image Material](https://nypl.github.io/archival-processing/processing-manual/processing-ami/) and [Description of Electronic Records in ArchivesSpace](https://nypl.github.io/archival-processing/processing-manual/archival-description/description-of-ers-in-aspace/).
+This section covers how to describe AMI recordings in ArchivesSpace. AMI components should never be manually created in ASpace. AMI data should be exported from SPEC, desribed in a spreadsheet, and then imported into ASpace. This ensures that AMI identifiers exactly match between SPEC and ASpace, and that metadata in the finding aid is populated in the correct fields. This section only covers tasks specific to ASpace. For information about descriptive practices, see the sections of the Archival Processing Manual on [Processing Audio and Moving Image Material](https://nypl-research.github.io/archival-processing/processing-manual/processing-ami/) and [Description of Electronic Records in ArchivesSpace](https://nypl-research.github.io/archival-processing/processing-manual/archival-description/description-of-ers-in-aspace/).
 
 ## Table of Contents
 {: .no_toc .text-delta }
@@ -37,12 +37,12 @@ If you used the _sequence_ field in your inventory, these numbers will be append
 ![AMI Sequence](../aspace/Images/17-ami-sequence.jpg)
 
 # AMI Extents
-Each AMI component should include an extent statement of _1 audio recording_ or _1 moving image recording_. See the section of the processing manual on [AMI extents](https://nypl.github.io/archival-processing/processing-manual/archival-description/description-of-ami-in-aspace/#ami-component-extent-statements). AMI extents are automatically added to each component when the AMI inventory is imported into ASpace.
+Each AMI component should include an extent statement of _1 audio recording_ or _1 moving image recording_. See the section of the processing manual on [AMI extents](https://nypl-research.github.io/archival-processing/processing-manual/archival-description/description-of-ami-in-aspace/#ami-component-extent-statements). AMI extents are automatically added to each component when the AMI inventory is imported into ASpace.
 
 ![AMI Component Extent](../processing-manual/images/90-AMI-component-extent.png)
 
 # Arranging AMI Components in ASpace
-This section addresses some common post-import descriptive tasks to perform in ASpace. For detailed information on how to arrange and describe audio and moving image content in finding aids see the [Processing Audio and Moving Image Material](https://nypl.github.io/archival-processing/processing-manual/processing-ami/) and [Description of Electronic Records in ArchivesSpace](https://nypl.github.io/archival-processing/processing-manual/archival-description/description-of-ers-in-aspace/) sections of the Archival Processing Manual.
+This section addresses some common post-import descriptive tasks to perform in ASpace. For detailed information on how to arrange and describe audio and moving image content in finding aids see the [Processing Audio and Moving Image Material](https://nypl-research.github.io/archival-processing/processing-manual/processing-ami/) and [Description of Electronic Records in ArchivesSpace](https://nypl-research.github.io/archival-processing/processing-manual/archival-description/description-of-ers-in-aspace/) sections of the Archival Processing Manual.
 
 ## Splitting Non-Consecutive Dates
 If an AMI item has multiple dates associated with it in the inventory, all dates will be imported into a single Date field. You will need to manually move non-consecutive dates into their own dates subfield as illustrated below.

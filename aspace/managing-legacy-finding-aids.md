@@ -9,7 +9,7 @@ has_children: false
 # Managing Legacy Finding Aids
 Older collections in the Archives Portal can be imported into ArchivesSpace for remediation and additions. Many older collections in the Archives Portal were created under different descriptive rules and standards, and will generally need to be revised to meet current practice. 
 
-The Senior Manager and Manager are responsible to all legacy EAD imports into ArchivesSpace, and will remediate the EAD prior to import. Archival Processing has developed a number of [scripts 🔒](https://github.com/NYPL/archival-processing-scripts) to support this process.
+The Senior Manager and Manager are responsible to all legacy EAD imports into ArchivesSpace, and will remediate the EAD prior to import. Archival Processing has developed a number of [scripts 🔒](https://github.com/NYPL-Research/archival-processing-scripts) to support this process.
 
 Once a collection is in ArchivesSpace, please review the following aspects of the finding aid:
 
@@ -31,7 +31,7 @@ Make sure all identifiers are present and in the right place:
 * **Electronic Record ID:** Every electronic record should have an ER ID. This goes in the “Electronic Record Identifier” field in the “Identifiers” section of ASpace.
 
 ## Dates
-Legacy finding aids often have incorrectly formatted dates and/or use “undated” or “n.d.” Per [DACS](https://saa-ts-dacs.github.io/), dates should be formatted as YEAR (4 digits) MONTH (spelled out) DAY, for example “2025 August 29.” While the remediation [scripts 🔒](https://github.com/NYPL/archival-processing-scripts) will usually correct these, it is good practice to check the dates fields.
+Legacy finding aids often have incorrectly formatted dates and/or use “undated” or “n.d.” Per [DACS](https://saa-ts-dacs.github.io/), dates should be formatted as YEAR (4 digits) MONTH (spelled out) DAY, for example “2025 August 29.” While the remediation [scripts 🔒](https://github.com/NYPL-Research/archival-processing-scripts) will usually correct these, it is good practice to check the dates fields.
 
 ## Component Levels 
 Make sure series, subseries, and files are correctly identified.

@@ -9,7 +9,7 @@ has_children: false
 # Controlled Access Terms
 {: .no_toc }
 
-After creating the front-matter description for the collection, add controlled access terms. Controlled access terms include agents (personal names, corporate names, family names) and subjects (topics, form/genre, occupations). This section will detail how to create those terms. See the Archival Process Manual section on [controlled access terms](https://nypl.github.io/archival-processing/processing-manual/archival-description/controlled-access-terms/) for additional information. 
+After creating the front-matter description for the collection, add controlled access terms. Controlled access terms include agents (personal names, corporate names, family names) and subjects (topics, form/genre, occupations). This section will detail how to create those terms. See the Archival Process Manual section on [controlled access terms](https://nypl-research.github.io/archival-processing/processing-manual/archival-description/controlled-access-terms/) for additional information. 
 
 ## Table of Contents
 {: .no_toc .text-delta }
@@ -25,7 +25,7 @@ The _Agent Links_ form allows for name terms to be associated with collections. 
 When adding an agent link, select the agent role from the _Role_ menu (field 2). Use the following rules when selecting Roles:
 
 ### Main Entry
-Select _Main Entry_ ([MARC 1xx](https://www.loc.gov/marc/bibliographic/bd1xx.html)) if the agent is primarily responsible for the creation, assembly, accumulation, and/or maintenance and use of the materials being described. Generally, each collection should have exactly one _Main Entry_, although exceptions may arise for artificial collections when a main entry should not be used. See the [Archival Processing Manual](https://nypl.github.io/archival-processing/processing-manual/archival-description/controlled-access-terms/#main-entry) for more information on working with artificial collections.
+Select _Main Entry_ ([MARC 1xx](https://www.loc.gov/marc/bibliographic/bd1xx.html)) if the agent is primarily responsible for the creation, assembly, accumulation, and/or maintenance and use of the materials being described. Generally, each collection should have exactly one _Main Entry_, although exceptions may arise for artificial collections when a main entry should not be used. See the [Archival Processing Manual](https://nypl-research.github.io/archival-processing/processing-manual/archival-description/controlled-access-terms/#main-entry) for more information on working with artificial collections.
 
 ### Creator/Contributor
 Select _Creator/Contributor_ ([MARC 7xx](https://www.loc.gov/marc/authority/ad7xx.html)) if the agent created material in the collection, or contributed to its creation. You must also provide a _Relator_ term (field 3) that describes the _creator/contributor_ relationship with the collection’s main entry. Choose the term from the Library of Congress [MARC Code List for Relators ](https://www.loc.gov/marc/relators/relaterm.html) list. The most commonly used relator term is _contributor_. 
@@ -44,7 +44,7 @@ Provide the agent link in the _Agents_ field (field 4). If the agent already exi
 Agents can be detached from a collection via the x button (button 6). Note that detaching an agent from a collection will not delete that agent from ArchivesSpace, it will only remove it from that collection.
 
 ### Creating New Agents
-**Before creating new subjects/agents in ArchivesSpace, please read the [Archival Processing Manual](https://nypl.github.io/archival-processing/processing-manual/archival-description/controlled-access-terms/#agents) section on creating agents records**.
+**Before creating new subjects/agents in ArchivesSpace, please read the [Archival Processing Manual](https://nypl-research.github.io/archival-processing/processing-manual/archival-description/controlled-access-terms/#agents) section on creating agents records**.
 
 When creating name entries (families, persons, corporate bodies), use the _Agent_ screen.
 
@@ -54,9 +54,9 @@ Provide each part of the name in its appropriate field (e.g. surnames in _Primar
 
 Additional name forms can be provided by clicking _Add Name Form_ (button 2). This allows for the input of pseudonyms.
 
-Provide the identifier of the name in _Authority ID_ (field 3), when available. Information on which identifier to use is available in the [Processing Manual](https://nypl.github.io/archival-processing/processing-manual/archival-description/controlled-access-terms/#creating-new-agents).
+Provide the identifier of the name in _Authority ID_ (field 3), when available. Information on which identifier to use is available in the [Processing Manual](https://nypl-research.github.io/archival-processing/processing-manual/archival-description/controlled-access-terms/#creating-new-agents).
 
-Provide the source of the authorized name in _Source_ (field 4). A list of acceptable sources is available in the [Processing Manual](https://nypl.github.io/archival-processing/processing-manual/archival-description/controlled-access-terms/#creating-new-agents). If the name is not from an external authority, use _Local Unauthorized_.
+Provide the source of the authorized name in _Source_ (field 4). A list of acceptable sources is available in the [Processing Manual](https://nypl-research.github.io/archival-processing/processing-manual/archival-description/controlled-access-terms/#creating-new-agents). If the name is not from an external authority, use _Local Unauthorized_.
 
 If the rules used to create the name are known, provide this value in _Rules_ (field 5). All locally-created names should follow the rules set out in [RDA Toolkit, Chapter 9](http://original.rdatoolkit.org/rdachp9_rda9-759.html). Do not provide a value for names found in an authority.
 
@@ -92,7 +92,7 @@ _Create_ will open up a form to create a new subject, and associate it with the 
 Subjects can be detached from a collection/component via the **_x_** button on the right (button 4). Note that even if a subject is detached, the subject record will still exist in ArchivesSpace.
 
 ### Creating New Subjects
-Please refer to the [Archival Processing Manual](https://nypl.github.io/archival-processing/processing-manual/archival-description/controlled-access-terms/#subjects) for information on rules and policies regarding creating access terms. When creating non-name subject terms, always use the Subject sub-menu.
+Please refer to the [Archival Processing Manual](https://nypl-research.github.io/archival-processing/processing-manual/archival-description/controlled-access-terms/#subjects) for information on rules and policies regarding creating access terms. When creating non-name subject terms, always use the Subject sub-menu.
 
 ![new subjects](../aspace/Images/40-new-subject.png)
 

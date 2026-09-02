@@ -45,4 +45,4 @@ When describing electronic records, provide the size of the records in the appro
 ## Audio and Moving Image Extents
 When describing audio and moving image recordings at the archival object level, include the _Number_ of recordings and the _Type_ as either _audio recording_ or _moving image recording_. 
 
-For more information on extents, see the Archival Processing Manual section on [extents](https://nypl.github.io/archival-processing/processing-manual/archival-description/front-matter/#extents). 
+For more information on extents, see the Archival Processing Manual section on [extents](https://nypl-research.github.io/archival-processing/processing-manual/archival-description/front-matter/#extents). 
