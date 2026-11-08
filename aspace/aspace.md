@@ -12,7 +12,11 @@ The ArchivesSpace staff instance is managed by [Archival Processing 🔒](https:
 
 NYPL’s instance of ArchivesSpace is hosted by [Lyrasis](https://lyrasis.org/archivesspace-hosting/), an organization that specializes in hosting and supporting ASpace. Lyrasis assures that our ASpace instance is running correctly, and also assists with upgrades, customizations, and plugin maintenance. All communications with Lyrasis are initiated and managed by Archival Processing management.
 
-NYPL is currently using a highly customized instance of ArchivesSpace 2.5, but actively testing features in version 4.2, which is the most current version of ASpace. This guide is written for use with ArchivesSpace 2.5 and all of its local customizations. We also recommend consulting ArchivesSpace’s own [User Manual](https://archivesspace.atlassian.net/wiki/spaces/ArchivesSpaceUserManual/pages/909934631/ArchivesSpace+User+Manual) and [training videos](https://www.youtube.com/@archivesspace5340), which are created, managed, and maintained by the [ArchivesSpace Community](https://archivesspace.org/). 
+In November 2026, NYPL upgarded to to ArchivesSpace version 4.2.1 from a highly customized instance of version 2.5. 
+
+This guide was initially written for use with ArchivesSpace 2.5 and all of its local customizations, but documentation updates are in-process. 
+
+We also recommend consulting ArchivesSpace’s own [User Manual](https://archivesspace.atlassian.net/wiki/spaces/ArchivesSpaceUserManual/pages/909934631/ArchivesSpace+User+Manual) and [training videos](https://www.youtube.com/@archivesspace5340), which are created, managed, and maintained by the [ArchivesSpace Community](https://archivesspace.org/). 
 
 All ArchivesSpace users should register for the [ArchivesSpace Help Center](https://archivesspace.atlassian.net/wiki/spaces/ArchivesSpaceUserManual/overview), which provides additional resources and insight from the ASpace community. The Help Center is available to all ASpace users at ASpace member institutions. 
 
