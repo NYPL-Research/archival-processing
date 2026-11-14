@@ -9,19 +9,16 @@ has_children: false
 ---
 # Description of Audio and Moving Image Recordings in ASpace
 {: .no_toc }
-After you import your audio and moving image inventory into ASpace, it will appear as a single series called _AMI Series._ The items will be further arranged into the group names you assigned under the larger groupings of _Sound Recordings_, _Videos_, and _Film_. 
 
-![AMI Series](../processing-manual/images/88-AMI-series.png)
-
-These are just placeholder series and subseries that you should re-arrange in a manner that reflects the arrangement in the rest of the collection. It is important to also note that the Archival Processing unit does not use the _item_ level of description in ArchivesSpace. Individual audio and moving image items should always receive the _file_ level of description.
+Audio and moving image (AMI) recordings are all accessioned on an item level in SPEC. These recordings must be exported from SPEC and mapped to the ArchivesSpace bulk import spreadsheet by Archival Processing management via python script. All AMI will include three levels of extent information mapped from the SPEC record, and also be linked to a top container. Make sure to create a media originals top container before importing your AMI. Makie sure that each individual audio and moving image items is always desribed on the _file_ level of description.
 
 ![ASpace File Level](../processing-manual/images/89-ASpace-file-level.png)
 
-Make a component title in the appropriate place(s) in the finding aid for all of the groups of audio and moving image content that will be digitized. The component titles should be as specific as possible and focus on the content, not the specific formats of the audio and moving image materials. For instance, if a group of sound recordings are all interviews, the component should be called _interviews_ not _sound recordings_. Also, if there are many interviews present, which were recorded as video and audio recordings, these can be combined into a single heading called _Interviews_. Just because media are in different formats does not mean they need to be described separately as _audio recordings_ and _moving image recordings_. The extent statement for each AMI object will identify it as audio or moving image. 
+Make an archival object title in the appropriate place(s) in the finding aid for all of the groups of audio and moving image content. The archival object titles should be as specific as possible and focus on the content, not the specific formats of the audio and moving image materials. For instance, if a group of audio recordings are all interviews, the archival object should be called _interviews_ not _audio recordings_. Also, if there are many interviews present, which were recorded as video and audio recordings, these can be combined into a single heading called _Interviews_. Just because media are in different formats does not mean they need to be described separately as _audio recordings_ and _video recordings_. The extent statement for each AMI object will identify its format.
 
 Descriptions of amounts and types of media should be as accurate and specific as possible. When describing audio and moving image content, be sure to discuss the content, not the just the format. For instance, say “the series includes fifteen interviews with people, such as John and Jane Doe, conducted as research for his book” as opposed to “this series includes audio cassettes of interviews.” 
 
-**Each component should contain only ONErecording. Even if a recording is split accross mulitple carriers.**
+**Each archival object should contain only ONE recording. Even if a recording is split accross mulitple carriers.**
 
 **Finding aids should describe each AMI recording, not the digitized files.**
 
@@ -35,13 +32,7 @@ Descriptions of amounts and types of media should be as accurate and specific as
 The Dance division suppresses AMI content until it is digitized. When supressing AMI in ArchivesSpace, suppress the children components, but not the parent component. The series title and series-level description will be viewable in the finding aid, but not the individual audio and moving image components. This is applicable on the subseries level as well. For more information on how to suppress audio and moving image components in a finding aid, see the [ASpace User Guide](https://nypl-research.github.io/archival-processing/aspace/). The ASpace User Guide also includes instructions on how to format tracklists into ordered lists in the Scope and Content note, as well as some guidance on when and when not to condense components. 
 
 ## AMI Component Extent Statements
-Just like electronic records, each AMI component should have an extent statement. The extent statement should state the number of recordings and whether the recording audio or moving image. In ArchivesSpace, the extent field will look like this:
-
-![AMI Component Extent](../processing-manual/images/90-AMI-component-extent.png)
-
-If the division requests to include the original media format, use the controlled SPEC term in the _Physical Details_ field of the ASpace extent form as illustrated below.
-
-![AMI original media formats](../processing-manual/images/177-original-media-formats-extent.png)
+Just like electronic records, each AMI component should have an extent statement. The extent statement should state the number of recordings (this will always be 1 for an archival object) and the full three levels of extent information.
 
 ## Audio and Moving Image Access Notes In ArchivesSpace
 In both the front matter and at the level immediately above the audio and moving image components, provide the division's _Conditions Governing Access Note_. 
