@@ -178,9 +178,9 @@ This [error](https://help.oclc.org/Metadata_Services/WorldShare_Record_Manager/T
 
 ![ELvl Error](../images/174-Elvl-error-message.jpg)
 
-This occurs when there is a  _I_ or _J_ in the _ELvl_ field at the top of the record. To correct the error, simply delete the letter from the box as illustrated below. 
+This occurs when there is a  _I_ or _J_ in the _ELvl_ field at the top of the record. To correct the error, populate this field with a 7, as illustrated below. 
 
-![Corrected ELvl error](../images/175-corrected-ELvl-field.jpg)
+![Corrected ELvl error](../processing-manual/images/175-corrected-ELvl-field.png)
 
 See OCLC's [documentation](https://help.oclc.org/Metadata_Services/WorldShare_Record_Manager/Troubleshooting/Why_am_I_receiving_the_error_%22ELvl_(Leader%2F%2F17)_-_invalid_code%22_or_%22ELvl_(Leader%2F%2F17)_-_not_authorized_to_use_I%22_when_I_try_to_validate_a_record%3F) for further information.
 
