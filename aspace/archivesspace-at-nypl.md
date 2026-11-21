@@ -34,20 +34,25 @@ ArchivesSpace is an open-source content management system used to manage archiva
 
 - Attach containers to collections
 
+## ASpace at NYPL is **NOT** Used For:
 
-## ASpace at NYPL is **NOT** Used For
-**Collection Management** 
+**Archival Accessioning**
 
-Collection management at NYPL is managed in [SPEC](https://sites.google.com/nypl.org/specialcollections/spec), which is used for both [location management](https://nypl-research.github.io/archival-processing/processing-manual/Location_Management.html) and [accessioning](https://nypl-research.github.io/archival-processing/processing-manual/Accessioning.html).
+Archival accessioning at NYPL is managed in SPEC [SPEC](https://nypl-research.github.io/archival-processing/processing-manual/Accessioning.html)
+
+**Managing Locations** 
+
+[Location management](https://nypl-research.github.io/archival-processing/processing-manual/Location_Management.html) at NYPL is maintained in [SPEC](https://sites.google.com/nypl.org/specialcollections/spec)
+
 
 **Circulation and Public Access**
 
-At NYPL, finding aids are published on the [Archives Portal](https://archives.nypl.org/) by Archival Processing unit management and Archives Portal administrators by exporting EAD from ASpace and uploading it to the portal. All uploads and revisions to the portal are also tracked and versioned in a system managed by the Archival Processing unit. 
+At NYPL, finding aids are published on the [Archives Portal](https://archives.nypl.org/) by Archival Processing management and Archives Portal administrators. Finding aids are published by exporting EAD from ASpace and uploading it to the portal. All uploads and revisions to the portal are also tracked and versioned in a system maintained and managed by Archival Processing.
 
 Processing archivists create catalog records in [WorldCat](https://search.worldcat.org/) and the [Research Catalog](https://www.nypl.org/research/collections/articles-databases/nypl-research-catalog) by exporting MARCXML records from ArchivesSpace, uploading them to OCLC Connexion, and exporting those records to [Sierra 🔒](https://sites.google.com/a/nypl.org/sierramanual/nypl-sierra-manual).
 
-[Aeon 🔒](https://lair.nypl.org/-/departments/library-sites-and-services/research-libraries/special-collections-aeon-implementation/aeon-resources-documentation) is managed by the NYPL Collections Access and Discovery department, and is used by public service staff to facilitate requests and circulation tracking workflows for collection materials.
+[Aeon 🔒](https://lair.nypl.org/-/departments/library-sites-and-services/research-libraries/special-collections-aeon-implementation/aeon-resources-documentation) is managed by the NYPL Access and Research Services  department, and is used by public service staff to facilitate requests and circulation tracking workflows for collection materials.
 
 **Searching Legacy Description**
 
-When NYPL implemented ArchivesSpace for description in 2017, legacy description was not imported. All Pre-2017 archival description was created in other systems and uploaded to the [Archives Portal](https://archives.nypl.org/). While legacy finding aids have been, and continue to be imported into ASpace on an ad-hoc basis, usually as part of the Archival Processing unit’s Description Remediation program, most legacy finding aids are only available on the Archives Portal. Therefore, the Archives Portal is the best place to search for all finding aids produced by NYPL. 
+When NYPL implemented ArchivesSpace for description in 2017, legacy description was not imported. All Pre-2017 archival description was created in other systems and uploaded to the [Archives Portal](https://archives.nypl.org/). While legacy finding aids have been, and continue to be imported into ASpace on an ad-hoc basis, usually as part of the Archival Processing's Description Remediation program, most legacy finding aids are only available on the Archives Portal.
